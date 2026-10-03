@@ -1,0 +1,4 @@
+spec: nanobot/v1
+name: pathology-stain-normalization-node
+runtime: python3.11
+entrypoint: agent.py

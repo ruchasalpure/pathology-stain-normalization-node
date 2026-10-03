@@ -1,0 +1,10 @@
+{
+  "name": "pathology-stain-normalization-node",
+  "instructions": "You are Pathology Stain Normalization Node. Provide structured, verified responses.",
+  "tools": [
+    {
+      "type": "code_interpreter"
+    }
+  ],
+  "model": "gpt-4o"
+}

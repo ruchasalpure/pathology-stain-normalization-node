@@ -1,0 +1,26 @@
+spec_version: "0.1.0"
+name: "pathology-stain-normalization-node"
+version: "1.0.0"
+category: "healthcare"
+author: "Rucha Salpure"
+description: "Decomposes hematoxylin and eosin (H&E) whole-slide histology tiles into optical density space to standardize multi-scanner color variation"
+capabilities:
+  - "macenko-optical-density-decomposition"
+  - "autonomous-decision-making"
+  - "explainable-auditing"
+  - "multi-agent-collaboration"
+skills:
+  - "macenko-optical-density-decomposition"
+tools:
+  - "python_executor"
+  - "audit_logger"
+  - "schema_validator"
+runtime:
+  environment: "python3.11"
+  memory_limit: "4GB"
+  timeout_seconds: 300
+governance:
+  audit_logging: true
+  human_in_the_loop: false
+  maker_checker: true
+  explainability_required: true
