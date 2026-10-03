@@ -1,6 +1,0 @@
-app:
-  name: "pathology-stain-normalization-node"
-  environment: "production"
-  logging:
-    level: "INFO"
-    format: "json"
